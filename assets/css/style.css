@@ -10949,11 +10949,11 @@ textarea.form-control-lg {
     font-size: 1rem;
   }
 }
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .services__content {
     margin-top: 5rem;
   }
-}
+} */
 .services__content .icon {
   font-size: 1.5rem;
   color: #9926f0;
@@ -10965,6 +10965,10 @@ textarea.form-control-lg {
 }
 .services__pic {
   max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .testimonials {
